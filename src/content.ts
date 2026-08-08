@@ -1061,8 +1061,7 @@ export const branches: Branch[] = [
   {
     name: 'فرع حي الشفا',
     area: 'الشفا',
-    mapsUrl:
-      'https://maps.google.com/?q=%D8%B3%D9%85%D8%A7+%D9%83%D8%A7%D9%81%D9%8A%D9%87+%D8%AD%D9%8A+%D8%A7%D9%84%D8%B4%D9%81%D8%A7',
+    mapsUrl: 'https://maps.app.goo.gl/hC1zpGJQqo6ryZkg9?g_st=ac',
   },
 ]
 
