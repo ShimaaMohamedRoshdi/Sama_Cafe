@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-dark: 31 20 15;
+  --brand-espresso: 55 38 28;
+  --brand-brown: 110 80 58;
+  --brand-caramel: 185 138 90;
+  --brand-cream: 248 241 230;
+  --brand-white: 255 253 249;
+  --brand-beige: 233 221 208;
+  --brand-text: 41 31 24;
+  --brand-muted: 115 100 89;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgb(var(--brand-text));
+  background-color: rgb(var(--brand-cream));
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  direction: rtl;
+  background-image:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.7), transparent 22%),
+    linear-gradient(135deg, rgb(248 239 229) 0%, rgb(252 248 242) 50%, rgb(244 235 223) 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(245, 158, 11, 0.25);
+  color: rgb(var(--brand-text));
+}

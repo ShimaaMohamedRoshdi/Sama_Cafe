@@ -1,0 +1,420 @@
+/* =========================================================
+   BANNER
+========================================================= */
+
+.banner {
+  width: 100%;
+  max-width: 975px;
+  margin: 0 auto;
+
+  overflow: hidden;
+
+  background: #ffffff;
+}
+
+
+/* =========================================================
+   COVER
+========================================================= */
+
+.banner-cover {
+  position: relative;
+
+  width: 100%;
+  height: 460px;
+
+  overflow: hidden;
+
+  background: #ffffff;
+}
+
+
+.banner-cover-image {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* =========================================================
+   COVER PLACEHOLDER
+========================================================= */
+
+.banner-cover-placeholder {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+
+  color: #82ccc8;
+
+  font-size: 32px;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   BANNER BODY
+========================================================= */
+
+.banner-body {
+  position: relative;
+
+  width: 100%;
+
+  min-height: 330px;
+
+  background: #82ccc8;
+
+  padding-top: 110px;
+  padding-bottom: 45px;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   LANGUAGE
+========================================================= */
+
+.banner-language {
+  position: absolute;
+
+  top: 28px;
+  left: 28px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+
+  border: none;
+  background: transparent;
+
+  padding: 0;
+
+  color: #367f7d;
+
+  font-family: inherit;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+
+.banner-language:hover {
+  opacity: 0.8;
+}
+
+
+/* =========================================================
+   LOGO
+========================================================= */
+
+.banner-logo-wrapper {
+  position: absolute;
+
+  top: -78px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  z-index: 10;
+}
+
+
+.banner-logo-circle {
+  width: 156px;
+  height: 156px;
+
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.banner-logo {
+  width: 105px;
+  height: 105px;
+
+  object-fit: contain;
+}
+
+
+.banner-logo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 20px;
+
+  text-align: center;
+
+  color: #111111;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+
+/* =========================================================
+   BRAND
+========================================================= */
+
+.banner-brand {
+  position: relative;
+
+  z-index: 2;
+
+  margin: 0;
+}
+
+
+.banner-arabic-name {
+  margin: 0;
+
+  color: #000000;
+
+  font-size: 40px;
+
+  line-height: 1.25;
+
+  font-weight: 500;
+
+  direction: rtl;
+}
+
+
+.banner-english-name {
+  margin: 4px 0 0;
+
+  color: #000000;
+
+  font-size: 38px;
+
+  line-height: 1.25;
+
+  font-weight: 400;
+}
+
+
+/* =========================================================
+   SOCIAL LINKS CONTAINER
+========================================================= */
+
+.banner-socials {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 25px;
+
+  margin-top: 28px;
+}
+
+
+/* =========================================================
+   SOCIAL LINK
+========================================================= */
+
+.banner-social-link {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 34px;
+  height: 34px;
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+
+.banner-social-link:hover {
+  color: #ffffff;
+
+  opacity: 0.85;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .banner-cover {
+    height: 330px;
+  }
+
+
+  .banner-body {
+    min-height: 300px;
+
+    padding-top: 95px;
+    padding-bottom: 35px;
+  }
+
+
+  .banner-language {
+    top: 20px;
+    left: 18px;
+
+    font-size: 15px;
+  }
+
+
+  .banner-logo-wrapper {
+    top: -65px;
+  }
+
+
+  .banner-logo-circle {
+    width: 130px;
+    height: 130px;
+  }
+
+
+  .banner-logo {
+    width: 88px;
+    height: 88px;
+  }
+
+
+  .banner-arabic-name {
+    font-size: 32px;
+  }
+
+
+  .banner-english-name {
+    font-size: 30px;
+  }
+
+
+  .banner-socials {
+    gap: 18px;
+
+    margin-top: 25px;
+  }
+
+
+  .banner-social-link {
+    width: 30px;
+    height: 30px;
+  }
+
+
+  .banner-social-link svg {
+    width: 27px;
+    height: 27px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .banner-cover {
+    height: 270px;
+  }
+
+
+  .banner-body {
+    min-height: 275px;
+
+    padding-top: 82px;
+    padding-bottom: 30px;
+  }
+
+
+  .banner-language {
+    top: 17px;
+    left: 15px;
+
+    font-size: 14px;
+  }
+
+
+  .banner-language svg {
+    width: 16px;
+    height: 16px;
+  }
+
+
+  .banner-logo-wrapper {
+    top: -58px;
+  }
+
+
+  .banner-logo-circle {
+    width: 116px;
+    height: 116px;
+  }
+
+
+  .banner-logo {
+    width: 78px;
+    height: 78px;
+  }
+
+
+  .banner-arabic-name {
+    font-size: 28px;
+  }
+
+
+  .banner-english-name {
+    font-size: 27px;
+  }
+
+
+  .banner-socials {
+    gap: 14px;
+
+    margin-top: 23px;
+  }
+
+
+  .banner-social-link {
+    width: 27px;
+    height: 27px;
+  }
+
+
+  .banner-social-link svg {
+    width: 24px;
+    height: 24px;
+  }
+}
