@@ -328,12 +328,6 @@ export const quickActions: QuickAction[] = [
     isExternal: true,
   },
   {
-    title: 'الطلب',
-    href: 'https://loyapro.com/c-r/Mjg1MQ==?fbclid=PAVERFWAQNsPJleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadN_aAgebmqEHwEqXJZ5nQEIgQRuTUFujp_qK2KX0-RjZFRqEl5QOlh8XPfSg_aem_NsXK07nCR2MAUUO6dECebQ',
-    icon: Store,
-    isExternal: true,
-  },
-  {
     title: 'برنامج الولاء',
     href: 'https://loyapro.com/c-r/Mjg1MQ==?fbclid=PAVERFWAQNsPJleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadN_aAgebmqEHwEqXJZ5nQEIgQRuTUFujp_qK2KX0-RjZFRqEl5QOlh8XPfSg_aem_NsXK07nCR2MAUUO6dECebQ',
     icon: Trophy,
