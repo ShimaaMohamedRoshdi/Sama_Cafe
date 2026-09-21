@@ -1,0 +1,29 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Sama Cafe API",
+    "description": "API documentation generated in Swagger 2.0 format",
+    "version": "1.0.0"
+  },
+  "host": "localhost:3000",
+  "basePath": "/api",
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "paths": {
+    "/menu": {
+      "get": {
+        "summary": "Get menu items",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation"
+          }
+        }
+      }
+    }
+  }
+}
